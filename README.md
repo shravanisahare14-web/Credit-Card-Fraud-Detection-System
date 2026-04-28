@@ -1,4 +1,5 @@
 # 💳 Credit Card Fraud Detection System
+ 🚀 End-to-End Machine Learning Project for Real-World Fraud Detection
 
 ## 📌 Overview
 This project uses Machine Learning to detect fraudulent credit card transactions.
@@ -45,3 +46,35 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 After downloading, place the file in:
 
 data/creditcard.csv
+
+## 🔍 Fraud Detection Simulation
+
+This project includes a simple simulation of a real-world fraud detection system.
+
+### 🧠 How it Works
+
+1. A transaction is taken from unseen test data  
+2. The trained model analyzes its features  
+3. The model predicts whether it is:
+   - Fraud (1)
+   - Normal (0)  
+4. Based on prediction, an alert is triggered  
+
+### ⚙️ Example Output
+🚨 FRAUD ALERT! Transaction is suspicious.
+or
+✅ Normal Transaction.
+
+### 📊 Probability-Based Prediction
+
+The model also provides probability scores:
+Fraud Probability: 0.87
+
+
+This helps in understanding how confident the model is in its prediction.
+
+### 🎯 Real-World Simulation
+
+This simulates how banks process transactions in real-time:
+
+Transaction → Model → Prediction → Alert System
